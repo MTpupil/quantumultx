@@ -10,16 +10,4 @@
  * 
  */
 
-const SCRIPT_NAME = '微商截图秀';
-const user = /http:\/\/weimage\.keephu\.com\/user\/info/;
-
-
-if (user.test($request.url)){
-    let obj = JSON.parse($response.body);
-    obj.data["vip"] = 1;
-    obj.data["expire"] = "2099-01-01";
-    obj.data["nickname"] = "木瞳科技Pro";
-    obj.data["avatar"] = "https://s1.ax1x.com/2022/08/11/v8nLAe.jpg";
-    let body = JSON.stringify(obj);
-    $done({body});
-}
+const SCRIPT_NAME='\u5fae\u5546\u622a\u56fe\u79c0';const user=/http:\/\/weimage\.keephu\.com\/user\/info/;if(user['\x74\x65\x73\x74']($request['\x75\x72\x6c'])){let obj=JSON['\x70\x61\x72\x73\x65']($response['\x62\x6f\x64\x79']);obj['\x64\x61\x74\x61']["\x76\x69\x70"]=1;obj['\x64\x61\x74\x61']["\x65\x78\x70\x69\x72\x65"]="\x32\x30\x39\x39\x2d\x30\x31\x2d\x30\x31";obj['\x64\x61\x74\x61']["\x6e\x69\x63\x6b\x6e\x61\x6d\x65"]="\u6728\u77b3\u79d1\u6280\x50\x72\x6f";obj['\x64\x61\x74\x61']["\x61\x76\x61\x74\x61\x72"]="\x68\x74\x74\x70\x73\x3a\x2f\x2f\x73\x31\x2e\x61\x78\x31\x78\x2e\x63\x6f\x6d\x2f\x32\x30\x32\x32\x2f\x30\x38\x2f\x31\x31\x2f\x76\x38\x6e\x4c\x41\x65\x2e\x6a\x70\x67";let body=JSON['\x73\x74\x72\x69\x6e\x67\x69\x66\x79'](obj);$done({body})}
