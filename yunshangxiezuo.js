@@ -6,7 +6,7 @@
  * 
  * Quantumult X
  * [rewrite_local]
- * ^https?:\/\/paint\.api\.wombo\.ai:443\/api\/(users|styles|premium\/sync) url script-response-body https://raw.githubusercontent.com/MTpupil/quantumultx/main/Dream.js
+ * ^https?:\/\/yunshangxiezuo\.com\/api\/getAuthenticate_2 url script-response-body https://raw.githubusercontent.com/MTpupil/quantumultx/main/yunshangxiezuo.js
  * 
  */
 
