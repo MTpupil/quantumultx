@@ -1,3 +1,5 @@
-let a = $response.body;
-let body = a.replace(/vip\":\d"/g, 'vip\":1').replace(/vip_forever\":\d/g, "vip_forever':1")
-$done({body});
+var obj = JSON.parse($response.body);
+    obj.data.vip_last= 59";
+obj.data.vip_forever= 1;
+obj.data.vip= 1;
+    $done({body: JSON.stringify(obj)});
