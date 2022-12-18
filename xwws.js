@@ -6,12 +6,12 @@
  * 
  * Quantumult X
  * [rewrite_local]
- * ^https?:\/\/xy\.jietuguanjia\.com\/api\/app\/userInfo url script-response-body https://raw.githubusercontent.com/MTpupil/quantumultx/main/xwws.js
+ * ^https?:\/\/xw\.jietuguanjia\.com\/api\/app\/userInfo url script-response-body https://raw.githubusercontent.com/MTpupil/quantumultx/main/xwws.js
  * 
  */
 
 const SCRIPT_NAME='小歪微商';
-const user=/http:\/\/xy\.jietuguanjia\.com\/api\/app\/userInfo/;
+const user=/http:\/\/xw.jietuguanjia.com\/api\/app\/userInfo/;
 if(user.test($request.url)){
 let obj=JSON.parse($response.body);
 obj.data["username"]="木瞳科技Pro";
