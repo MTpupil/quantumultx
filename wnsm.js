@@ -16,5 +16,8 @@ if(user.test($request.url)){
 let obj=JSON.parse($response.body);
 obj.result["name"]="木瞳科技Pro";
 obj.result["vip"]=true;
+
+obj.result["visible"]=false;
+
 let body=JSON.stringify(obj);
 $done({body})}
