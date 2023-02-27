@@ -11,7 +11,7 @@
  */
 
 const SCRIPT_NAME='堆糖';
-const user=/^https?:*.duitang.com\/napi\/people\/me/;
+const user=/^https?:*.duitang\.com\/napi\/people\/me/;
 if(user.test($request.url)){
 let obj=JSON.parse($response.body);
 obj.data["username"]="木瞳科技Pro";
