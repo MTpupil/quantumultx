@@ -6,7 +6,7 @@
  * 
  * Quantumult X
  * [rewrite_local]
- * ^https?://*.duitang.com/napi/people/me url script-response-body https://raw.githubusercontent.com/MTpupil/quantumultx/main/duitang.js
+ * ^https:\/\/(www|api)\.duitang\.com\/napi\/people\/me url script-response-body https://raw.githubusercontent.com/MTpupil/quantumultx/main/duitang.js
  * 
  */
 
