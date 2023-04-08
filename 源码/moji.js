@@ -1,5 +1,5 @@
 /**
- * moji辞典破解vip
+ * moji辞書破解vip
  * 公众号：木瞳科技Pro
  * [MITM]
  * hostname = *.mojidict.com
