@@ -12,7 +12,7 @@
 
 const SCRIPT_NAME='moji辞書';
 const vip=/https:\/\/api.mojidict.com\/parse\/functions\/getNPrivileges/;
-const user = /https:\/\/api.mojidict.com\/parse\/classes\/_User\/r3FjCI7Wo5/;
+const user = /https:\/\/api.mojidict.com\/parse\/classes\/_User\/.*/;
 
 let data = {
 expiresDate:4102329600000,
