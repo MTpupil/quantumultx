@@ -12,9 +12,9 @@
  */
 
 const SCRIPT_NAME='moji辞書/mojiTest';
-const vip=/https:\/\/api\.mojidict\.com(\/app\/mojitest)?\/parse\/functions\/getNPrivileges/;
+const vip = /https:\/\/api\.mojidict\.com(\/app\/mojitest)?\/parse\/functions\/getNPrivileges/;
 const user = /https:\/\/api\.mojidict\.com(\/app\/mojitest)?\/parse\/classes\/_User\/*/;
-const book = https://api.mojidict.com/app/mojitest/parse/functions/(getProducts_v2|fetchVocabLists-v4)
+const book = /https:\/\/api\.mojidict\.com\/app\/mojitest\/parse\/functions\/(getProducts_v2|fetchVocabLists-v4)/
 
 let data = {
 expiresDate:4102329600000,
