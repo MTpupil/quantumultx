@@ -22,7 +22,6 @@ payType:4,
 purchaseDate:1680876346465
 }
 
-let 
 
 if(vip.test($request.url)){
   let obj=JSON.parse($response.body);
