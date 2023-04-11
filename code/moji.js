@@ -26,9 +26,7 @@ purchaseDate:1680876346465
 if(vip.test($request.url)){
   let obj=JSON.parse($response.body);
 
-  obj.result.result.forEach(function(item) {
-  item.privilege = data;
-});
+  obj.result.result[2].privilege = data;
   obj.result.result.forEach(function(item) {
   item.privilegeStatus = "activated";
 });
