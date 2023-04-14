@@ -1,19 +1,20 @@
 /**
  * moji辞書破解高级会员
  * mojiTest解锁所有词书
+ * moji阅读解锁永久会员
  * 公众号：木瞳科技Pro
  * [MITM]
  * hostname = *.mojidict.com
  * 
  * Quantumult X
  * [rewrite_local]
- * https:\/\/api\.mojidict\.com(\/app\/mojitest)?\/parse\/(classes\/_User\/.*|functions\/(getProducts_v2|fetchVocabLists-v4|getNPrivileges)) url script-response-body https://raw.githubusercontent.com/MTpupil/quantumultx/main/moji.js
+ * https:\/\/api\.mojidict\.com(\/app\/(mojitest|mojiread))?\/parse\/(classes\/_User\/.*|functions\/(getProducts_v2|fetchVocabLists-v4|getNPrivileges)) url script-response-body https://raw.githubusercontent.com/MTpupil/quantumultx/main/moji.js
  * 
  */
 
 const SCRIPT_NAME='moji辞書/mojiTest';
-const vip = /https:\/\/api\.mojidict\.com(\/app\/mojitest)?\/parse\/functions\/getNPrivileges/;
-const user = /https:\/\/api\.mojidict\.com(\/app\/mojitest)?\/parse\/classes\/_User\/*/;
+const vip = /https:\/\/api\.mojidict\.com(\/app\/(mojitest|mojiread))?\/parse\/functions\/getNPrivileges/;
+const user = /https:\/\/api\.mojidict\.com(\/app\/(mojitest|mojiread))?\/parse\/classes\/_User\/*/;
 const book = /https:\/\/api\.mojidict\.com\/app\/mojitest\/parse\/functions\/(getProducts_v2|fetchVocabLists-v4)/
 
 let data = {
