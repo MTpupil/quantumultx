@@ -7,7 +7,7 @@
  * 
  * Quantumult X
  * [rewrite_local]
- * ^https?:\/\/biz\.cyapi\.cn\/(v2\/user|p\/v1\/vip_info) url script-response-body https://raw.githubusercontent.com/MTpupil/quantumultx/main/caiyun.js
+ * ^https?:\/\/biz\.cyapi\.cn\/(v2\/user|p\/v1\/vip_info|p\/v1\/user_info) url script-response-body https://raw.githubusercontent.com/MTpupil/quantumultx/main/caiyun.js
  * 
  */
 
