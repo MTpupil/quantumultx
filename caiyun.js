@@ -13,7 +13,7 @@
 
 const SCRIPT_NAME = '彩云天气';
 const user = /https:\/\/biz\.cyapi\.cn\/v2\/user/;
-const vip = /https:\/\/biz.cyapi.cn\/p\/v1\/vip_info/;
+const vip = /https:\/\/biz.\cyapi\.cn\/p\/v1\/vip_info/;
 
 if(user.test($request.url)){
 
