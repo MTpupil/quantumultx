@@ -20,7 +20,7 @@ if(user.test($request.url)){
   let obj=JSON.parse($response.body);
   obj.data["username"]="木瞳科技Pro";
   console.log("jjjj")
-$notify("测试", "拦截成功" , "" );
+/*$notify("测试", "拦截成功" , "" );*/
   obj.data["vip"]=true;
 obj.data["vip_level"]=11;
 obj.data["vip_end_at"]=4102380638;
