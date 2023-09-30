@@ -10,28 +10,4 @@
  * 
  */
 
-const SCRIPT_NAME='堆糖';
-
-const user=/https?:\/\/(www|api)\.duitang\.com\/napi\/people\/me.*/;
-
-
-
-if(user.test($request.url)){
-  let obj=JSON.parse($response.body);
-  obj.data["username"]="木瞳科技Pro";
-  console.log("jjjj")
-/*$notify("测试", "拦截成功" , "" );*/
-  obj.data["vip"]=true;
-obj.data["vip_level"]=11;
-obj.data["vip_end_at"]=4102380638;
-obj.data["vip_end_at_mills"]=4102380638000;
-obj.data["svip_mechanism"]=1;
-obj.data["latest_vip_level"]=11;
-obj.data["avatar"]="https://s1.ax1x.com/2022/11/23/z8LIPO.jpg";
-obj.data["vipstatus"]="open";
-obj.data["be_follow_count"]=999999;
-obj.data["ipaddr"]="木瞳科技Pro破解";
-obj.data["score"]=999999;
-  let body=JSON.stringify(obj);
-  $done({body})
-}
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('h 9=\'堆糖\';h J=/l?:\/\/(Q|a)\.k\.f\/u\/z\/t.*/;m(J.G($A.I)){  r w=7.y($B.e);  w.i["K"]="木瞳科技8";  g.s("o")/*$v("测试", "拦截成功" , "" );*/  w.i["L"]=H;w.i["O"]=1;w.i["M"]=4;w.i["N"]=5;w.i["F"]=0;w.i["q"]=1;w.i["b"]="l://C.c.f/2/1/3/R.p";w.i["P"]="x";w.i["d"]=6;w.i["n"]="木瞳科技8破解";w.i["D"]=6;  r e=7.E(w);  $j({e})}',62,54,'1|11|2022|23|4102380638|4102380638000|999999|JSON|Pro|SCRIPT_NAME|api|avatar|ax1x|be_follow_count|body|com|console|const|data|done|duitang|https|if|ipaddr|jjjj|jpg|latest_vip_level|let|log|me|napi|notify|obj|open|parse|people|request|response|s1|score|stringify|svip_mechanism|test|true|url|user|username|vip|vip_end_at|vip_end_at_mills|vip_level|vipstatus|www|z8LIPO'.split('|'),0,{}))
