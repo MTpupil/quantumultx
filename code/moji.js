@@ -12,11 +12,11 @@
  * 
  */
 
-const SCRIPT_NAME='moji辞書/mojiTest';
+const SCRIPT_NAME='moji辞書';
 const vip = /^https:\/\/api\.mojidict\.com\/parse\/functions\/getNPrivileges/;
 const vip_v2 = /^https:\/\/api\.mojidict\.com\/parse\/functions\/getNPrivileges-v2/
 
-let data = {
+/*let data = {
 expiresDate:4102329600000,
 payType:4,
 purchaseDate:1680876346465
@@ -35,7 +35,7 @@ if(vip.test($request.url)){
   let body=JSON.stringify(obj);
   $done({body})
 }
-
+*/
 if(vip_v2.test($request.url)){
   let obj=JSON.parse($response.body);
 
