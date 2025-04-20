@@ -14,7 +14,7 @@
 
 const SCRIPT_NAME='moji辞書/mojiTest';
 const vip = /https:\/\/api\.mojidict\.com\/parse\/functions\/getNPrivileges/;
-const vip_v2 = /https:\/\/api\.mojidict\.com\/app\/mojidict\/parse\/functions\/getPanprivileges_v2/
+const vip_v2 = /https:\/\/api\.mojidict\.com\/app\/mojidict\/parse\/functions\/getNprivileges_v2/
 
 let data = {
 expiresDate:4102329600000,
